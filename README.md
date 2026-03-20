@@ -1,6 +1,6 @@
-# 🚀 Content Monitoring System
+#  Content Monitoring System
 
-## 📌 Overview
+##  Overview
 
 The **Content Monitoring System** is a backend application built using Django and Django REST Framework. It scans content against predefined keywords, assigns relevance scores, and flags matching content for review.
 
@@ -8,7 +8,7 @@ It also includes a **suppression mechanism** to prevent re-flagging already revi
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Backend:** Python, Django
 * **API Framework:** Django REST Framework
@@ -17,7 +17,7 @@ It also includes a **suppression mechanism** to prevent re-flagging already revi
 
 ---
 
-## ⚙️ Features
+##  Features
 
 * Add and manage keywords
 * Store and manage content items
@@ -29,7 +29,7 @@ It also includes a **suppression mechanism** to prevent re-flagging already revi
 
 ---
 
-## 🧠 Scoring Logic
+##  Scoring Logic
 
 | Condition                      | Score |
 | ------------------------------ | ----- |
@@ -40,7 +40,7 @@ It also includes a **suppression mechanism** to prevent re-flagging already revi
 
 ---
 
-## 🚫 Suppression Logic
+##  Suppression Logic
 
 If a flag is marked as **irrelevant**, it will not be recreated unless:
 
@@ -48,9 +48,9 @@ If a flag is marked as **irrelevant**, it will not be recreated unless:
 
 ---
 
-## 🔗 API Endpoints
+##  API Endpoints
 
-### 1️⃣ Add Keyword
+### 1️ Add Keyword
 
 **POST** `/api/keywords/`
 
@@ -62,19 +62,19 @@ If a flag is marked as **irrelevant**, it will not be recreated unless:
 
 ---
 
-### 2️⃣ Run Scan
+### 2️ Run Scan
 
 **POST** `/api/scan/`
 
 ---
 
-### 3️⃣ Get All Flags
+### 3️ Get All Flags
 
 **GET** `/api/flags/`
 
 ---
 
-### 4️⃣ Update Flag Status
+### 4️ Update Flag Status
 
 **PATCH** `/api/flags/<id>/`
 
@@ -86,7 +86,7 @@ If a flag is marked as **irrelevant**, it will not be recreated unless:
 
 ---
 
-## ▶️ How to Run Locally
+##  How to Run Locally
 
 ```bash
 # Clone repository
